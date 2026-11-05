@@ -124,10 +124,6 @@ public:
 			 cout << "Pos X " << posX <<  " Pos Y " << posY << endl;
 		}
 	}
-	
-	void scrollCallback(GLFWwindow* window, double deltaX, double deltaY) {
-		//code for pitch and yaw variable updates
-	}
 
 	void resizeCallback(GLFWwindow *window, int width, int height)
 	{
